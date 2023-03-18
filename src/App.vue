@@ -24,12 +24,8 @@ const callMyName = {
     callMyName.firstName = f;
     callMyName.lastName = l;
   },
-<<<<<<< HEAD
-  
-  setAge:(age)=>{callMyName.age = age}
-=======
+  setAge:(age)=>{callMyName.age = age},
   getAge:()=>callMyName.age,
->>>>>>> setName
 };
 
 callMyName.func1(callMyName.firstName + ' ' + callMyName.lastName)
