@@ -49,6 +49,8 @@ const goHell = {
   }
 }
 
+console.log(goHell.list)
+
 function getData(id)
 {
   return new Promise((resolve, reject)=>{
