@@ -19,9 +19,16 @@ const callMyName = {
   firstName:'alex',
   lastName:'Hwang',
   func1:(name)=>{console.log(name)},
+  setName:(f, l) =>{
+    callMyName.firstName = f;
+    callMyName.lastName = l;
+  }
 };
 
-console.log(callMyName.func1(callMyName.firstName + ' ' + callMyName.lastName))
+callMyName.func1(callMyName.firstName + ' ' + callMyName.lastName)
+
+callMyName.setName('Look','Good')
+callMyName.func1(callMyName.firstName + ' ' + callMyName.lastName);
 
 function getData(id)
 {
