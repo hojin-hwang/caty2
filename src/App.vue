@@ -28,6 +28,7 @@ const callMyName = {
   setAge:(age)=>{callMyName.age = age},
   getAge:()=>callMyName.age,
   getAddress:()=>callMyName.address,
+  setAddress:(address)=>callMyName.address = address,
 };
 
 callMyName.func1(callMyName.firstName + ' ' + callMyName.lastName)
