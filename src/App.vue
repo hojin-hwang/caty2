@@ -15,6 +15,12 @@ const yesOrNo = async() => {
 
 yesOrNo();
 
+const callMyName = {
+  name:'alex',
+  func1:(name)=>{console.log(name)},
+};
+
+console.log(callMyName.func1(callMyName.name))
 
 function getData(id)
 {
