@@ -18,6 +18,7 @@ yesOrNo();
 const callMyName = {
   firstName:'alex',
   lastName:'Hwang',
+  age:20,
   func1:(name)=>{console.log(name)},
 };
 
