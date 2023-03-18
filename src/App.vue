@@ -137,6 +137,8 @@ function warnDisabled() {
   }, 1500)
 }
 
+console.log(1)
+
 </script>
 
 <template>
