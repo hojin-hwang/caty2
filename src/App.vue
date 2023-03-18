@@ -46,7 +46,8 @@ const goHell = {
   },
   addList:(target)=>{
     goHell.list.push(target);
-  }
+  },
+  showList:()=>console.log(goHell.list),
 }
 
 console.log(goHell.list)
