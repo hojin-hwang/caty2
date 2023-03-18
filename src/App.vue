@@ -138,12 +138,7 @@ function warnDisabled() {
 }
 
 console.log(1)
-<<<<<<< HEAD
 console.log(2)
-console.log(3)
-=======
-
->>>>>>> parent of d66e5fe (print 2)
 </script>
 
 <template>
