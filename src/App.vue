@@ -16,11 +16,12 @@ const yesOrNo = async() => {
 yesOrNo();
 
 const callMyName = {
-  name:'alex',
+  firstName:'alex',
+  lastName:'Hwang',
   func1:(name)=>{console.log(name)},
 };
 
-console.log(callMyName.func1(callMyName.name))
+console.log(callMyName.func1(callMyName.firstName + ' ' + callMyName.lastName))
 
 function getData(id)
 {
