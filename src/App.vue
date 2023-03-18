@@ -18,11 +18,13 @@ yesOrNo();
 const callMyName = {
   firstName:'alex',
   lastName:'Hwang',
+  age:20,
   func1:(name)=>{console.log(name)},
   setName:(f, l) =>{
     callMyName.firstName = f;
     callMyName.lastName = l;
-  }
+  },
+  getAge:()=>callMyName.age,
 };
 
 callMyName.func1(callMyName.firstName + ' ' + callMyName.lastName)
