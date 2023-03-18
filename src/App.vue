@@ -23,7 +23,9 @@ const callMyName = {
   setName:(f, l) =>{
     callMyName.firstName = f;
     callMyName.lastName = l;
-  }
+  },
+  
+  setAge:(age)=>{callMyName.age = age}
 };
 
 callMyName.func1(callMyName.firstName + ' ' + callMyName.lastName)
