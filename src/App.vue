@@ -38,11 +38,14 @@ callMyName.func1(callMyName.firstName + ' ' + callMyName.lastName);
 
 const goHell = {
   list:['He','She','They'],
-  DoGoHell:(index)=>{
+  doGoHell:(index)=>{
     console.log("congraturation You go to hell: ", goHell.list[index]);
   },
-  DoNotGoHell:(index)=>{
+  doNotGoHell:(index)=>{
     console.log("Sorry You stay here!!: ", goHell.list[index]);
+  },
+  addList:(target)=>{
+    goHell.list.push(target);
   }
 }
 
