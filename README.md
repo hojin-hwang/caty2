@@ -1,4 +1,4 @@
-# caty2
+# caty2 : Just Vue Test. No use anywhere
 
 ## Project setup
 ```
