@@ -147,6 +147,9 @@ console.log(3)
 
 <template>
   <titl>Go Hell</titl>
+
+  <section>New Box</section>
+
   <p>{{ answer }}</p>
   <p>{{idInfo}}</p>
   <span>X : {{x}}</span> |
