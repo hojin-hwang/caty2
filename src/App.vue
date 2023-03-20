@@ -2,6 +2,7 @@
 import {onMounted, reactive, ref } from 'vue';
 import { useMouse } from './assets/js/mouse.js'
 import MyModal from './components/MyModal.vue'
+import UserName from './components/UserName.vue'
 
 let answer = ref('');
 
@@ -148,7 +149,9 @@ console.log(3)
 <template>
   <titl>Go Hell</titl>
 
-  <section>New Box</section>
+  <section>
+    <UserName></UserName>
+  </section>
 
   <section>Old Box</section>
   <p>{{ answer }}</p>
