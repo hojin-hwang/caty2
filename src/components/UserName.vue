@@ -1,13 +1,17 @@
 <script setup>
-    import { defineProps } from 'vue';
+    import { defineProps, ref } from 'vue';
     const name = defineProps(['name']);
+    const age = ref(10)
 </script>
 
 <template>
-<h1>Hi Nice Meet You</h1>
-<span>His Name is {{name}}</span>
+    <article>
+        <h1>Hi Nice Meet You</h1>
+        <span>His Name is {{name}}</span>
+        <span> His age is {{ age }}</span>
+    </article>
 </template>
 
-<style>
-
+<style scoped>
+article{display: flex; flex-direction: column;}
 </style>
