@@ -150,7 +150,7 @@ console.log(3)
   <titl>Go Hell</titl>
 
   <section>
-    <UserName></UserName>
+    <UserName name="Kori Tailer"></UserName>
   </section>
 
   <section>Old Box</section>
