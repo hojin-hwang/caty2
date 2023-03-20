@@ -146,7 +146,7 @@ console.log(3)
 </script>
 
 <template>
-  <titl>Go Hell 12</titl>
+  <titl>Go Hell 12 abcd</titl>
   <p>{{ answer }}</p>
   <p>{{idInfo}}</p>
   <span>X : {{x}}</span> |
