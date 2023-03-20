@@ -146,11 +146,7 @@ console.log(3)
 </script>
 
 <template>
-<<<<<<< HEAD
-  <titl>Go Hell 12 abcd</titl>
-=======
   <titl>Go Hell</titl>
->>>>>>> parent of ec08f91 (title 1)
   <p>{{ answer }}</p>
   <p>{{idInfo}}</p>
   <span>X : {{x}}</span> |
