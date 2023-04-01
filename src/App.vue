@@ -3,7 +3,10 @@ import {onMounted, reactive, ref } from 'vue';
 import { useMouse } from './assets/js/mouse.js'
 import MyModal from './components/MyModal.vue'
 import UserName from './components/UserName.vue'
+import {useUserStore} from '@/store/UserStore.js'
 
+const userStore = useUserStore();
+//ㅈㅜ서ㄱ처처ㅣㅓㅇ
 let answer = ref('');
 
 const yesOrNo = async() => {
@@ -138,19 +141,19 @@ function warnDisabled() {
   }, 1500)
 }
 
-console.log(1)
-console.log(2)
-console.log(3)
 
-// console.log(4)
 // console.log(5)
+
+function addAge(){
+  userStore.upAge();
+}
 </script>
 
 <template>
-  <titl>Go Hell</titl>
+  <h4>Go Hell</h4>
 
   <section>
-    <UserName name="Kori Tailer" age="13"></UserName>
+    <UserName :name="userStore.userInfo.name" :age="userStore.getAge" @addAge="addAge"></UserName>
   </section>
 
   <section>Old Box</section>
